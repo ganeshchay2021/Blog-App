@@ -1,0 +1,5 @@
+class AppSecretes{
+  static const  superBaseUrl="https://ruxwdxnymgdukuyengpz.supabase.co";
+  static const  superBaseKey="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJ1eHdkeG55bWdkdWt1eWVuZ3B6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjM3OTgyMzUsImV4cCI6MjAzOTM3NDIzNX0.8urErhmlbbGYIoXEB5p3UiRR7dxWRh1lNU9CjDe-rAg";
+
+}
