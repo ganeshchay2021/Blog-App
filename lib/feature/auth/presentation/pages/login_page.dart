@@ -1,11 +1,11 @@
 import 'package:blogapp/core/common/widgets/loader.dart';
 import 'package:blogapp/core/utils/show_snackbar.dart';
-import 'package:blogapp/dashboard.dart';
 import 'package:blogapp/feature/auth/presentation/bloc/auth_bloc.dart';
 import 'package:blogapp/feature/auth/presentation/pages/signup_page.dart';
 import 'package:blogapp/feature/auth/presentation/widgets/auth_gradent_button.dart';
 import 'package:blogapp/feature/auth/presentation/widgets/auth_login_signup_btn.dart';
 import 'package:blogapp/feature/auth/presentation/widgets/auth_textfield.dart';
+import 'package:blogapp/feature/blog/presentation/pages/bloc_page.dart';
 import 'package:email_validator/email_validator.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -48,7 +48,7 @@ class _LoginPageState extends State<LoginPage> {
               Navigator.pushReplacement(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => const Dashboard(),
+                  builder: (context) => const BlogPage(),
                 ),
               );
             } else if (state is AuthErrorState) {
